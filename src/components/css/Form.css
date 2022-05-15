@@ -1,0 +1,12 @@
+.form-bg{
+    width: 100vw;
+    background-image: url('./Form1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-bg {
+        background-image: url('./form-background.svg');
+    }
+  }
